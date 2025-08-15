@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Music2Class</class>
+ <widget class="QMainWindow" name="Music2Class">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x
+    <y>0</y>
+    <width>835</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Music2</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/new/prefix1/music.png</normaloff>:/new/prefix1/music.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/C:/Users/Lingeas/Pictures/Saved Pictures/background2.jpg);</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="last_button">
+    <property name="geometry">
+     <rect>
+      <x>371</x>
+      <y>406</y>
+      <width>42</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="Resource.qrc">
+      <normaloff>:/new/prefix1/last.png</normaloff>:/new/prefix1/last.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next_button">
+    <property name="geometry">
+     <rect>
+      <x>437</x>
+      <y>406</y>
+      <width>42</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="Resource.qrc">
+      <normaloff>:/new/prefix1/next.png</normaloff>:/new/prefix1/next.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_button">
+    <property name="geometry">
+     <rect>
+      <x>504</x>
+      <y>406</y>
+      <width>42</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="Resource.qrc">
+      <normaloff>:/new/prefix1/play.png</normaloff>:/new/prefix1/play.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="order_button">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>406</y>
+      <width>42</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="Resource.qrc">
+      <normaloff>:/new/prefix1/order.png</normaloff>:/new/prefix1/order.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>261</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+background-image: url();</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_button">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>420</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加歌曲</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>360</y>
+      <width>391</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>270</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>340</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string>0：0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>260</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: transparent</string>
+    </property>
+    <property name="text">
+     <string>正在播放：</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="actionnh">
+   <property name="text">
+    <string>你好</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
